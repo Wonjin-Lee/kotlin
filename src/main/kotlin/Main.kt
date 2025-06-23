@@ -8,4 +8,6 @@ fun main() {
 
     val rectangle = Rectangle(41, 43)
     print(rectangle.isSquare)
+
+    print("테스트")
 }
