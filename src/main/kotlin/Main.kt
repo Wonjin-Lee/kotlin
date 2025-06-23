@@ -1,7 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import domain.Person
+import domain.Rectangle
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    val person = Person("Wonjin", true)
+    println(person.name)
+    println(person.isStudent)
+
+    val rectangle = Rectangle(41, 43)
+    print(rectangle.isSquare)
 }
