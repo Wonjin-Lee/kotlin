@@ -1,5 +1,5 @@
 import domain.Person
-import domain.Rectangle
+import geometry.shapes.Rectangle
 
 fun main() {
     val person = Person("Wonjin", true)
